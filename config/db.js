@@ -3,9 +3,9 @@ var mysql = require('mysql');
 // Application initialization
 
 var connection = mysql.createConnection({
-    host     : 'freshprints.cqae0klixddl.ap-south-1.rds.amazonaws.com',
-    user     : 'toor',
-    password : '12345678',
+    host     : '35.200.155.31',
+    user     : 'root',
+    password : 'asdfghjkl',
     database: 'freshprints',
     timeout: 60000
 });
