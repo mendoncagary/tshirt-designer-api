@@ -6,8 +6,7 @@ var connection = mysql.createConnection({
     host     : 'freshprints.cqae0klixddl.ap-south-1.rds.amazonaws.com',
     user     : 'toor',
     password : '12345678',
-    database: 'freshprints',
-    timeout: 60000
+    database: 'freshprints'
 });
 
 connection.connect(function(err){
